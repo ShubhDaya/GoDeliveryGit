@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>865404598258-tbdk7pb3qq6n74efne71g3i1ejr5qiet.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.865404598258-tbdk7pb3qq6n74efne71g3i1ejr5qiet</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAtw4lXm8PiR76CefqaSSzLrJ1SVGYeKhk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>865404598258</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mindiii.Go-Delivery</string>
+	<key>PROJECT_ID</key>
+	<string>godeliveryplus-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>godeliveryplus-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:865404598258:ios:2bf3d3d6906be39ab61d6b</string>
+	<key>DATABASE_URL</key>
+	<string>https://godeliveryplus-dev.firebaseio.com</string>
+</dict>
+</plist>

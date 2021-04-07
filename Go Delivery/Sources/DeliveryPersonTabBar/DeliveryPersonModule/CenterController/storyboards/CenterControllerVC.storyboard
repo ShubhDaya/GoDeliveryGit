@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BbD-Hk-CTb">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-SemiBold.ttf">
+            <string>Nunito-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Center ControllerVC-->
+        <scene sceneID="9wi-uu-rWx">
+            <objects>
+                <viewController storyboardIdentifier="CenterControllerVC" id="BbD-Hk-CTb" customClass="CenterControllerVC" customModule="Go_Delivery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f5u-td-kq1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uzR-b1-3QQ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Under Development" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Rt-Df-83y">
+                                        <rect key="frame" x="116" y="371" width="182" height="27.5"/>
+                                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="3Rt-Df-83y" firstAttribute="centerY" secondItem="uzR-b1-3QQ" secondAttribute="centerY" id="UQ4-Zl-biS"/>
+                                    <constraint firstItem="3Rt-Df-83y" firstAttribute="centerX" secondItem="uzR-b1-3QQ" secondAttribute="centerX" id="ZD0-Bt-0ue"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6pm-hZ-Uzv" firstAttribute="trailing" secondItem="uzR-b1-3QQ" secondAttribute="trailing" id="5f1-Aw-sp3"/>
+                            <constraint firstItem="uzR-b1-3QQ" firstAttribute="leading" secondItem="6pm-hZ-Uzv" secondAttribute="leading" id="BkE-QK-8Ym"/>
+                            <constraint firstItem="uzR-b1-3QQ" firstAttribute="top" secondItem="6pm-hZ-Uzv" secondAttribute="top" id="PiD-8E-x2F"/>
+                            <constraint firstItem="6pm-hZ-Uzv" firstAttribute="bottom" secondItem="uzR-b1-3QQ" secondAttribute="bottom" id="PyQ-AS-HE9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6pm-hZ-Uzv"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="inactive_my_shipment_ico" selectedImage="active_my_shipment_ico" id="1iZ-7W-dma"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NNH-u8-3vh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-88" y="-42"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="active_my_shipment_ico" width="30" height="30"/>
+        <image name="inactive_my_shipment_ico" width="30" height="30"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_Go_Delivery {
+  umbrella header "Pods-Go Delivery-umbrella.h"
+
+  export *
+  module * { export * }
+}
